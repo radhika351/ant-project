@@ -2,9 +2,9 @@
 
 <project name="test" default="delete"  basedir=".">
 
-   <target name="create">
-      <mkdir dir="d1"/>
-        <mkdir dir="d2"/>
+   <target name="delete">
+      <delete dir="d1"/>
+        <delete dir="d2"/>
    </target>
 
 </project>
